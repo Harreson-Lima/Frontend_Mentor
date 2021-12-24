@@ -42,6 +42,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Harreson Lima](https://github.com/Harreson-Lima)
+- Website - [Harreson Lima](https://www.linkedin.com/in/harreson-lima/)
 - Frontend Mentor - [@Harreson-Lima](https://www.frontendmentor.io/profile/Harreson-Lima)
 - Twitter - [@Harreson_Lima](https://twitter.com/Harreson_Lima)
