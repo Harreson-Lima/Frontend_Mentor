@@ -12,3 +12,18 @@ $mobile-size: 375px;
   margin: 0;
   box-sizing: border-box;
 }
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin margin-bottom {
+  margin-bottom: 15px;
+}
