@@ -24,7 +24,7 @@
     width: 320px;
     padding: 24px;
     border-radius: 15px;
-    box-shadow: 0 20px 0 45px #0c192c3b, 0 15px 0 15px #0E1628;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.1);
   }
   .container .card-content {
     width: 100%;
@@ -64,6 +64,7 @@
   .container .card-text-title {
     color: white;
     font-weight: 600;
+    font-size: 18px;
     margin-bottom: 15px;
     transition: 0.2s;
   }
@@ -72,7 +73,7 @@
     color: #00fff7;
   }
   .container .card-text-descr {
-    color: rgba(139, 172, 218, 0.692);
+    color: rgba(167, 198, 241, 0.692);
     font-family: 300;
     font-size: 16px;
     margin-bottom: 15px;
@@ -97,7 +98,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgba(139, 172, 218, 0.692);
+    color: rgba(167, 198, 241, 0.692);
     width: 82px;
   }
   .container .card-creator {
@@ -119,7 +120,7 @@
     width: 100%;
   }
   .container .card-creator-data {
-    color: rgba(139, 172, 218, 0.692);
+    color: rgba(167, 198, 241, 0.692);
     font-size: 14px;
     margin-top: 15px;
   }
