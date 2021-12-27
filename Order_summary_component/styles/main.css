@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #e0e8ff;
+}
+
+main {
+  font-size: 16px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .card {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f7ff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+main .card-cover {
+  width: 100%;
+  height: 220px;
+  background-image: url(../assets/illustration-hero.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .card-content {
+  padding: 50px;
+}
+main .card-about {
+  width: 100%;
+  text-align: center;
+}
+main .card-about h1 {
+  color: #1f2f56;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+main .card-about p {
+  color: #7280a7;
+  margin-bottom: 45px;
+}
+main .card-planes {
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 45px;
+}
+main .card-planes-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20% 0 0;
+}
+main .card-planes-details h2 {
+  color: #1f2f56;
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+main .card-planes-details p {
+  color: #7280a7;
+  font-size: 16px;
+}
+main .card-planes a {
+  color: #3829e0;
+  font-weight: 700;
+  font-size: 16px;
+}
+main .card-btn {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .card-btn form {
+  width: 100%;
+  margin-bottom: 45px;
+}
+main .card-btn form button {
+  width: 100%;
+  background-color: #3829e0;
+  color: #f5f7ff;
+  font-weight: 700;
+  padding: 18px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+main .card-btn form button:hover {
+  cursor: pointer;
+}
+main .card-btn a {
+  width: 100%;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #7280a7;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #1f2f56;
+  word-spacing: 3px;
+}
+footer a {
+  text-decoration: none;
+  color: #3829e0;
+}
+
+/*# sourceMappingURL=main.css.map */
