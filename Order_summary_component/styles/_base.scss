@@ -1,7 +1,7 @@
 $primary-color: hsl(245, 75%, 52%);
 $bg-color: hsl(225, 100%, 94%);
 $card-bg-color: hsl(225, 100%, 98%);
-$text-color: hsl(224, 23%, 55%);
+$text-color: hsl(224, 22%, 49%);
 $title-color: hsl(223, 47%, 23%);
 $desktop-size: 1440px;
 $mobile-size: 375px;
@@ -22,3 +22,4 @@ $paragraph: 16px;
 @mixin margin-bottom {
   margin-bottom: 45px;
 }
+
