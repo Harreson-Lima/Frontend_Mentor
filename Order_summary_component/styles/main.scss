@@ -15,7 +15,7 @@
     padding: 10px;
 
     .card {
-      width: 450px;
+      width: 350px;
       @include flex-center;
       flex-direction: column;
       background-color: $card-bg-color;
