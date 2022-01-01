@@ -1,0 +1,16 @@
+$bg-color1: hsl(273, 75%, 66%);
+$bg-color2: hsl(240, 73%, 65%);
+$card-bg-color:  hsl(240, 5%, 91%);
+$text-color1: hsl(237, 12%, 33%);
+$text-color2: hsl(240, 6%, 50%);
+$title-color1: hsl(238, 29%, 16%);
+$title-color2: hsl(14, 88%, 65%);
+$desktop-size: 1440px;
+$mobile-size: 375px;
+$paragraph: 12px;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

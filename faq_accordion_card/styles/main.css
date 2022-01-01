@@ -1,3 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(#af67e9, #6565e7);
+  background-repeat: no-repeat;
+  display: flex;
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 35px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 90px;
+}
+main .faq {
+  width: 50%;
+  max-width: 700px;
+  margin: 0;
+}
+main .faq h1 {
+  font-size: 62px;
+  margin-bottom: 50px;
+  color: #1d1e35;
+}
+main .faq details {
+  border-bottom: 1px solid #d5d5d5;
+  padding: 10px 0;
+}
+main .faq details summary {
+  list-style: none;
+  padding: 20px 0;
+  font-size: 28px;
+  font-weight: 300;
+  cursor: pointer;
+  width: 100%;
+  color: #1d1e35;
+  display: flex;
+  justify-content: space-between;
+}
+main .faq details summary:hover {
+  color: #f47c57;
+}
+main .faq details p {
+  padding: 20px;
+  font-size: 20px;
+  color: #787887;
+}
+main .faq .arrow img {
+  width: 20px;
+  transition: 0.2s linear;
+}
+main .faq details[open] > summary {
+  font-weight: 700;
+}
+main .faq details[open] > summary img {
+  transform: rotate(-180deg);
+}
 
 /*# sourceMappingURL=main.css.map */

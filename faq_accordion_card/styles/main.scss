@@ -1,0 +1,80 @@
+@import 'base';
+
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient($bg-color1, $bg-color2);
+  background-repeat: no-repeat;
+  display: flex;
+  font-size: $paragraph;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 35px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 90px;
+
+  .faq {
+    width: 50%;
+    max-width: 700px;
+    margin: 0;
+    
+    h1 {
+      font-size: 62px;
+      margin-bottom: 50px;
+      color: $title-color1;
+    }
+    
+    details {
+      border-bottom: 1px solid #d5d5d5;
+      padding: 10px 0;
+      
+      summary {
+        list-style: none;
+        padding: 20px 0;
+        font-size: 28px;
+        font-weight: 300;
+        cursor: pointer;
+        width: 100%;
+        color: $title-color1;
+        display: flex;
+        justify-content: space-between;
+        &:hover {
+          color: $title-color2;
+        }
+      }
+    
+      p {
+        padding: 20px;
+        font-size: 20px;
+        color: $text-color2;
+      }
+    }
+    
+    
+    
+    .arrow {
+      img {
+        width: 20px;
+        transition: 0.2s linear;
+      }
+    }
+    
+    
+    details[open] > summary{
+    
+      font-weight: 700;
+    
+      img {
+    
+        transform: rotate(-180deg);
+      }
+    }
+  }
+}
